@@ -1,0 +1,4 @@
+.img-style{
+	color: rgba(255, 0, 0, 0.478431);/* el dato final le da la opacidad al color de la letra*/
+	background-color: rgba(0, 0, 255, 0.360784);/* el dato final le da la opacidad al color del fondo*/
+}

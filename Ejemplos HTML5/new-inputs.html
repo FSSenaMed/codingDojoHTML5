@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="">
+
+	<style type="text/css" media="all">
+
+		[required] {
+			border-color: #88a;
+			-webkit-box-shadow: 0 0 3px rgba(0, 0, 255, .5);
+		}
+		:invalid {
+			border-color: #e88;
+			-webkit-box-shadow: 0 0 5px rgba(255, 0, 0, .8);
+		}
+	</style>
+
+</head>
+<body>
+	<!-- Encabezado -->
+	<header>
+		<!-- Grupo de titulos o encabezados para no dañar el SEO -->
+		<hgroup></hgroup>
+	</header>
+	<nav>
+		<!-- Navegación Menú -->
+	</nav>
+	<section>
+		<!-- Contenido del sitio -->
+		<article>
+			<!-- Define zonas de contenido independiente -->
+			
+			<div id="nuevos-tipos-inputs">
+				<input type="text" required />
+
+				<input type="email" value="some@email.com" />
+
+				<input type="date" min="2010-08-14" max="2011-08-14" value="2010-08-14"/>
+
+				<input type="range" min="0" max="50" value="10" />
+
+				<input type="search" results="10" placeholder="Search..." />
+
+				<input type="tel"  placeholder="(555) 555-5555"
+				pattern="^\(?\d{3}\)?[-\s]\d{3}[-\s]\d{4}.*?$" />
+
+				<input type="color" placeholder="e.g. #bbbbbb" />
+
+				<input type="number" step="1" min="-5" max="10" value="0" />
+
+				<input type="text" x-webkit-speech />
+
+			</div>
+
+
+		</article>
+	</section>
+	<aside>
+		<!-- Define cualquier contenido que no este relacionado con el objetivo primario de la pagina -->
+	</aside>
+	<footer>
+		<!-- Pie de pagina y todo lo que lo compone -->
+	</footer>
+</body>
+</html>

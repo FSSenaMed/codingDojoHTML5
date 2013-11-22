@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'LeagueGothic';
+  src: url(LeagueGothic.otf);
+}
+
+@font-face {
+  font-family: 'Droid Sans';
+  src: url(Droid_Sans.ttf);
+}
+
+header {
+  font-family: 'LeagueGothic';
+}

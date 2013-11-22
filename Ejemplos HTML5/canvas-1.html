@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="">
+</head>
+<body>
+	<!-- Encabezado -->
+	<header>
+		<!-- Grupo de titulos o encabezados para no dañar el SEO -->
+		<hgroup></hgroup>
+	</header>
+	<nav>
+		<!-- Navegación Menú -->
+	</nav>
+	<section>
+		<!-- Contenido del sitio -->
+		<article>
+			<!-- Define zonas de contenido independiente -->
+			
+			<canvas id="canvas" width="838" height="220"></canvas>
+
+		</article>
+	</section>
+	<aside>
+		<!-- Define cualquier contenido que no este relacionado con el objetivo primario de la pagina -->
+	</aside>
+	<footer>
+		<!-- Pie de pagina y todo lo que lo compone -->
+	</footer>
+
+	<script>
+		var canvasContext = document.getElementById("canvas").getContext("2d");
+		canvasContext.fillRect(250, 25, 150, 100);
+
+		canvasContext.beginPath();
+		canvasContext.arc(450, 110, 100, Math.PI * 1/2, Math.PI * 3/2);
+		canvasContext.lineWidth = 15;
+		canvasContext.lineCap = 'round';
+		canvasContext.strokeStyle = '#069';
+		canvasContext.stroke();
+	</script>
+</body>
+</html>
+ 

@@ -1,0 +1,46 @@
+/*Selectores Globales*/
+
+.Class{
+	width: 100%;
+}
+
+#nav{
+	height: 50px;
+}
+
+/*Y el --------- style -------- atributo*/
+
+
+/*Selectores de elementos segun posición*/
+
+.row:nth-child(even) {
+	background: #dde;
+}
+.row:nth-child(odd) {
+	background: white;
+}
+
+/*Atributos especificos*/
+
+body{
+	padding-top: 70px;
+}
+
+input[type="text"] {
+	background: #eee;
+}
+
+
+/*Selectores segun orden jerarquico*/
+h2:first-child { 
+	margin-bottom: 52px;
+}
+
+div.text > div 
+{ 
+	margin-top: 15px; 
+} 
+
+h2 + header { 
+	border: 1px solid #069
+} 

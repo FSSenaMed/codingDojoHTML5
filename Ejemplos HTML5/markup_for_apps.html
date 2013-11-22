@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="">
+	<style>
+		.separador{
+			margin-bottom:15px;border-bottom:1px solid #069;
+		}
+	</style>
+
+</head>
+<body>
+	<!-- Encabezado -->
+	<header>
+		<!-- Grupo de titulos o encabezados para no dañar el SEO -->
+		<hgroup></hgroup>
+	</header>
+	<nav>
+		<!-- Navegación Menú -->
+	</nav>
+	<section>
+		<!-- Contenido del sitio -->
+		<article>
+			<!-- Define zonas de contenido independiente -->
+
+			<div id="lista" class="separador">
+				<span>Lista de Carros:</span> 
+				<input list="cars"/>
+				<datalist id="cars">
+					<option value="BMW"/>
+					<option value="Ford"/>
+					<option value="Volvo"/>
+				</datalist>
+			</div>
+			
+			
+			<div id="detalles" class="separador">
+				<details>
+					<summary>HTML 5</summary>
+					HTML5 es algo super cool :D !ooooh siii¡
+				</details>
+			</div>
+			
+			<div id="barras-estado-1" class="separador">
+				<span>Estatica sin animación:</span> 
+				<meter min="0" max="100" low="40" high="90" optimum="100" value="91"></meter>
+			</div>
+
+			<div id="barras-estado-2" class="separador">
+				<span>Animación de descarga: </span> 
+				<progress></progress>
+			</div>
+
+			<div id="barras-estado-3" class="separador">
+				<span>Animación de carga (Windows): </span>
+				<progress value="75" max="100"></progress>
+			</div>
+
+		</article>
+	</section>
+	<aside>
+		<!-- Define cualquier contenido que no este relacionado con el objetivo primario de la pagina -->
+	</aside>
+	<footer>
+		<!-- Pie de pagina y todo lo que lo compone -->
+	</footer>
+</body>
+</html>

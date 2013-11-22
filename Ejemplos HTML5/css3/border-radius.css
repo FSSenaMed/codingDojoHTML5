@@ -1,0 +1,25 @@
+
+.face: {
+	border-radius: 146px;
+} 
+.left-eye: {
+	border-radius: 35px; 
+}
+.right-eye: {
+	border-radius: 35px; 
+}
+.base-white: {
+	border-radius: 150px; 
+}
+.mouth: {
+	border-radius: 120px; 
+}
+.nose: {
+	border-radius: 50px; 
+}
+.left-black-eye: {
+	border-radius: 35px; 
+}
+.right-black-eye: {
+	border-radius: 35px; 
+}

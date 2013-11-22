@@ -1,0 +1,12 @@
+.color-image{
+	color: hsla(
+		126 
+		75%, 
+		38%, 
+		1.00);
+
+	/*matiz
+	saturación
+	luminosidad
+	color opaco*/
+}
